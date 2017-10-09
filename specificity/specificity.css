@@ -1,0 +1,24 @@
+/* Specificity = 002 */
+section > p {
+  background-color: chartreuse;
+}
+
+/* Specificity = 001 */
+p {
+  background-color: aquamarine;
+}
+
+/* Specificity = 010 */
+.my-class {
+  background-color: cadetblue;
+}
+
+/* Specificity = 100 */
+#p {
+background-color: violet;
+}
+
+/* Specificity = 000 */
+* {
+  background-color: bisque;
+}

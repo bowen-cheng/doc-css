@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="specificity.css">
+  <title>CSS Specificity</title>
+</head>
+<body>
+<main>
+  <section>
+    <h2>CSS Specificity</h2>
+    <div>
+      <span>Specificity is determined according to: 100*A + 10*B + 1*C, where:</span>
+      <dl>
+        <dt>A</dt>
+        <dd>Count of ID selectors</dd>
+        <dt>B</dt>
+        <dd>Count of class or attribute selectors</dd>
+        <dt>C</dt>
+        <dd>Count of type selectors</dd>
+      </dl>
+    </div>
+  </section>
+  <section>
+    <h2>Play yard</h2>
+    <p>
+      A paragraph outside div
+    </p>
+    <div>
+      <p>
+        A paragraph inside div
+      </p>
+      <p id="p">
+        A paragraph inside div with id
+      </p>
+      <p class="my-class">
+        A paragraph inside div with class
+      </p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

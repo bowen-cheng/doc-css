@@ -1,0 +1,7 @@
+/* Import statement must be on the top */
+@import url("to-be-imported.css");
+
+/* This declaration comes in later than the import, so it outweighs the imported style */
+p {
+  background-color: chartreuse;
+}

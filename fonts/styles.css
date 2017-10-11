@@ -1,0 +1,29 @@
+﻿body {
+  background: #cccc99;
+  font-family: sans-serif;
+}
+
+ol {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+h1 {
+  font-family: Monospace, serif;
+  font-size: 1.2em;
+}
+
+.code {
+  font-family: Monospace, serif;
+  font-size: 0.9em;
+}
+
+.content {
+  background: #eeeecc;
+  padding: 7px;
+}
+
+.copyright {
+  font-weight: bold;
+  font-size: 0.9em;
+}

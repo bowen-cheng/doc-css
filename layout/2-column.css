@@ -1,0 +1,44 @@
+.left-column-option-1-or-2 {
+  position: absolute;
+  width: 60%;
+  margin: 30px;
+  left: 0;
+}
+
+.right-column-option-1 {
+  position: absolute;
+  margin-right: 40px;
+
+  margin-left: 75%;
+}
+
+.right-column-option-2 {
+  position: absolute;
+  margin-right: 40px;
+
+  right: 0;
+  width: 25%;
+}
+
+.left-column-option-3 {
+  float: left;
+  margin-left: 30px;
+  width: 60%;
+}
+
+.right-column-option-3 {
+  float: left;
+  width: 25%;
+  margin-left:20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+body {
+  position: absolute;
+  padding-bottom: 600px;
+  width: 100%;
+}
